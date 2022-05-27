@@ -58,7 +58,7 @@ if __name__ == "__main__":
         crawl.usage()
         sys.exit()
 
-    for i in range(1, 10):
+    for i in range(0, 9):
         df = crawl.search(keyword, i)
         crawl.output(df)
         sleep(1)
